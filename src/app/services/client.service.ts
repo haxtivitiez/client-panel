@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase,FirebaseListObservable, FirebaseObjectObservable} from 'angularfire2/database-deprecated';
-import { Observable } from 'rxjs/observable';
+import { Observable } from 'rxjs/Observable';
 import { Client } from '../models/Client';
 
 @Injectable()
